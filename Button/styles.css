@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #D3D3D3;
+}
+
+.btn {
+    cursor: pointer;
+    background-color: white;
+    width: 11em;
+    height: 5em;
+    margin-left: 40%;
+    box-shadow: 0 9px #999;
+    border-radius: 20px;
+    text-align: center;
+    user-select: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn h2 {
+    line-height: 5rem;
+}
+
+
+.btn-one {
+    margin-top: 25%;
+    color: red;
+
+}
+
+.btn-one:active {
+    transform: translateY(4px);
+    box-shadow: 0 5px #fff;
+}
+
+.btn-two {
+    margin-top: 9%;
+    color: blue;
+
+}
+
+.btn-two:active {
+    transform: translateY(4px);
+    box-shadow: 0 5px #fff;
+}
+
+.btn-three {
+    margin-top: 10%;
+    color: black;
+
+}
+
+.btn-three:active {
+    transform: translateY(4px);
+    box-shadow: 0 5px #fff;
+}
